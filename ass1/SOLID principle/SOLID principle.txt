@@ -1,0 +1,27 @@
+The SOLID principles are a set of design principles that aim to make software systems more maintainable, modular, and easier to understand. 
+The principles were coined by Robert C. Martin (also known as Uncle Bob) and have become a widely accepted standard in object-oriented programming and software design.
+
+SOLID is an acronym that stands for:
+
+Single Responsibility Principle (SRP): 
+A class or module should have only one reason to change. It means that a class should have only one responsibility or job. 
+This principle promotes high cohesion and helps keep classes focused, making them easier to understand, test, and maintain.
+
+Open/Closed Principle (OCP): 
+Software entities (such as classes, modules, or functions) should be open for extension but closed for modification. 
+In other words, you should be able to extend the behavior of a system without modifying its existing code. 
+This is typically achieved through the use of abstraction, interfaces, and inheritance.
+
+Liskov Substitution Principle (LSP):
+Subtypes must be substitutable for their base types. This principle ensures that objects of a superclass can be replaced with objects of 
+its subclasses without affecting the correctness of the program. It defines a contract between classes and their subclasses, promoting polymorphism and enabling code reuse.
+
+Interface Segregation Principle (ISP): 
+Clients should not be forced to depend on interfaces they do not use. This principle encourages the creation of 
+fine-grained interfaces tailored to specific client needs, instead of having large, monolithic interfaces. 
+It helps prevent interface pollution and minimizes the impact of changes on clients.
+
+Dependency Inversion Principle (DIP): 
+High-level modules should not depend on low-level modules. Both should depend on abstractions. This principle promotes loose coupling between 
+components by ensuring that the high-level modules depend on abstractions (interfaces or abstract classes) rather than concrete implementations. 
+It enables flexibility, testability, and easier maintenance.

@@ -1,0 +1,21 @@
+Binary search is an efficient searching algorithm used to locate a specific element 
+in a sorted array or list. It follows a divide-and-conquer approach and repeatedly 
+partitions the search space in half, narrowing down the range of possible positions for the target element.
+
+The algorithm starts by comparing the target element with the middle element of the array.
+If they are equal, the search is successful, and the index of the target element is returned. 
+If the target is smaller than the middle element, the search continues in the lower half of 
+the array; otherwise, it continues in the upper half.
+
+The process is repeated by dividing the remaining subarray in half until the target element 
+is found or the search space is exhausted. The key idea behind binary search is that it eliminates 
+half of the remaining elements at each step, resulting in a time complexity of O(log n), where n is 
+the size of the array.
+
+Binary search assumes that the array is sorted in ascending order, as it relies on comparing elements 
+and dividing the search space. If the array is not sorted, binary search may produce incorrect results. 
+Therefore, it is crucial to ensure the array is sorted before applying the binary search algorithm.
+
+Binary search is a fundamental algorithm used in various applications, including searching in large datasets, 
+finding boundaries, and solving optimization problems. Its efficiency makes it especially useful when dealing 
+with large or ordered datasets, as it significantly reduces the number of comparisons needed to find the target element.
